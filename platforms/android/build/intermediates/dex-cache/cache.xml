@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\Data-2017.1.630-dev-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7eb4766323a266cdbfc48cc142f1d6708473b5ab">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-Data-2017.1.630-dev-release_a76956862f578f6c5fe32788ab6e159cd66929e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\NativeExmaple\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30b97ea5d6274e02330dcc69943087778363c172">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\NativeExmaple-runtime-unspecified_97e08d14a801ba68cba087f09206c19c46b67dc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\List-2017.1.630-dev-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a365b6245fb6b930758703d181dbe12a6a9a60a2">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-List-2017.1.630-dev-release_52e36919607bb323fe55fa4b501f34c4e739e34e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-vector-drawable-23.4.0_7d012233c87a2af8c33ef01eb53d78d749d5450b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\support-annotations-23.4.0_f6126d844204af6518b3b626ef25769c1f8a5482.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-animated-vector-drawable-23.4.0_649296cc1c0a5343e747112b874f7f7d1a09efb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\NativeExmaple\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\binding-generator_ffdba7f7ea597957b46d4e0b4d20645246686cfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed69cd5603304a6fc9a36a94c8be977a1d0e4857">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-widgets-release_55d662a1ba40cc0d5f3231a37f9bc842cb377254.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\Common-2017.1.630-dev-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="475598ccdc8298a9004389ea3ebacc5c06cf866d">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-Common-2017.1.630-dev-release_3fb2e8357c276d76ed5f3b754d9f9438a7c627af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\Primitives-2017.1.630-dev-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0149babd138432ad6c09e112dea4719190e580e8">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-Primitives-2017.1.630-dev-release_e1dbfe723f61f14eec36dab9862a3522ca7deb76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-recyclerview-v7-23.4.0_90bd836e52ca54103ab679ade2814b290f062cec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-v4-23.4.0_c15ba267e2d8e2a367cbd693bd2388fadfaa25af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\internal_impl-23.4.0_c7ad9c63b88aedeeb5ef2a6e9d74b014ea0b478a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-design-23.4.0_c3b18aba5571ad064a92e20ce43adc7847b5f76b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\NativeScript\NativeExmaple\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-appcompat-v7-23.4.0_e24d7d4533ac7ac9a472509525588a71c45b99bb.jar" />
+    </item>
+
+</items>
