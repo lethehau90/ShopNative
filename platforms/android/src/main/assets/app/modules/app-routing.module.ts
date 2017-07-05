@@ -6,6 +6,12 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
+export const navigatableComponents = [
+  HomeComponent,
+  AboutComponent,
+  ContactComponent
+];
+
 @NgModule({
   imports: [
     NativeScriptRouterModule.forRoot([
@@ -16,6 +22,9 @@ import { ContactComponent } from './contact/contact.component';
   ],
   exports: [NativeScriptRouterModule]
 })
+
+
+
 export class AppRoutingModule {
 
 }

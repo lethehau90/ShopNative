@@ -1,13 +1,10 @@
-import { NgModule } from '@angular/core';
-
+import { BaseComponent } from './../core/base/component.base';
+import { NgModule, Injector } from '@angular/core';
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
-
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, navigatableComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from './shared';
+import { InjectableObject } from "../../app/core/base/injectableobject.base";
 
 @NgModule({
   imports: [
@@ -17,12 +14,13 @@ import { SharedModule } from './shared';
   ],
   declarations: [
     AppComponent,
-    HomeComponent,
-    AboutComponent,
-    ContactComponent
+    ...navigatableComponents
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {
 
+export class AppModule {
+  constructor(private injector: Injector) {
+    InjectableObject.injector = this.injector;
+  }
 }

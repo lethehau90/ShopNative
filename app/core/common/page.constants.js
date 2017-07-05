@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var PageConstants = (function () {
+    function PageConstants() {
+    }
+    return PageConstants;
+}());
+PageConstants.pageIndex = 1;
+PageConstants.pageSize = 20;
+PageConstants.pageDisplay = 10;
+exports.PageConstants = PageConstants;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFnZS5jb25zdGFudHMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJwYWdlLmNvbnN0YW50cy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBO0lBQUE7SUFJQSxDQUFDO0lBQUQsb0JBQUM7QUFBRCxDQUFDLEFBSkQ7QUFDa0IsdUJBQVMsR0FBVyxDQUFDLENBQUM7QUFDdEIsc0JBQVEsR0FBVyxFQUFFLENBQUM7QUFDdEIseUJBQVcsR0FBVyxFQUFFLENBQUM7QUFIOUIsc0NBQWEiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgUGFnZUNvbnN0YW50cyB7XHJcbiAgICBwdWJsaWMgc3RhdGljIHBhZ2VJbmRleDogbnVtYmVyID0gMTtcclxuICAgIHB1YmxpYyBzdGF0aWMgcGFnZVNpemU6IG51bWJlciA9IDIwO1xyXG4gICAgcHVibGljIHN0YXRpYyBwYWdlRGlzcGxheTogbnVtYmVyID0gMTA7XHJcbn1cclxuIl19
