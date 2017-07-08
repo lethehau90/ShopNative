@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
   template: '<page-router-outlet></page-router-outlet>'
 })
 export class AppComponent {
-
+  
 }

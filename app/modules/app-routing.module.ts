@@ -1,3 +1,4 @@
+import { LoginComponent } from './login/login.component';
 import { NgModule } from '@angular/core';
 
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
@@ -9,13 +10,15 @@ import { ContactComponent } from './contact/contact.component';
 export const navigatableComponents = [
   HomeComponent,
   AboutComponent,
-  ContactComponent
+  ContactComponent,
+  LoginComponent
 ];
 
 @NgModule({
   imports: [
     NativeScriptRouterModule.forRoot([
-      { path: '', component: HomeComponent },
+      { path: '', component: LoginComponent },
+      { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: ContactComponent }
     ])

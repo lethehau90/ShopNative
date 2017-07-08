@@ -16,7 +16,6 @@ import { SystemConstants } from '../../core/common/system.constants'
 import { MessageContstants } from '../../core/common/message.constants';
 import { UrlConstants } from '../../core/common/url.constants';
 import { PageConstants } from "../../core/common/page.constants";
-import { UserService } from "../../core/shared/user.service";
 
 
 interface IBaseComponentOptions {
@@ -34,7 +33,6 @@ export class BaseComponent implements OnInit, OnDestroy, AfterContentInit {
   public _uploadService: UploadService;
   //public _cachingService: CachingService
   public _testService : TestService
-  public _userService : UserService
 
   public _systemConstants: any;
   public _messageContstants: any;
@@ -55,7 +53,6 @@ export class BaseComponent implements OnInit, OnDestroy, AfterContentInit {
     //this._cachingService = InjectableObject.injector.get(CachingService);
     
     this._testService = InjectableObject.injector.get(TestService);
-    this._userService = InjectableObject.injector.get(UserService);
 
     this._systemConstants = SystemConstants;
     this._messageContstants = MessageContstants;

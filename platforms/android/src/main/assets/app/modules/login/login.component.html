@@ -1,0 +1,17 @@
+<ActionBar title="Login">
+</ActionBar>
+
+<StackLayout>
+  <TextField #userName
+    hint="User Name"
+    [(ngModel)]="entity.userName"
+    row="0"></TextField>
+  <TextField #password
+    hint="Password"
+    secure="true"
+    (returnPress)="submit()"
+    [(ngModel)]="entity.password"
+    row="1"></TextField>
+    <Button text="Login"  (tap)="submit()"></Button>
+</StackLayout>
+
