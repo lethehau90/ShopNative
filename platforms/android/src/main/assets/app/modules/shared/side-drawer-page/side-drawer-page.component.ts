@@ -1,6 +1,8 @@
 import {
   Component, ViewChild, AfterViewInit, NgZone, OnDestroy
 } from '@angular/core';
+import * as ApplicationSettings from 'application-settings';
+
 import { ActivatedRoute } from '@angular/router';
 import { RouterExtensions } from 'nativescript-angular/router';
 
@@ -13,13 +15,15 @@ import {
 import {
   PushTransition, SlideInOnTopTransition
 } from 'nativescript-telerik-ui/sidedrawer';
-
+import { UtilityService } from "../../../core/services/utility.service";
+import { SystemConstants } from "../../../core/common/system.constants";
+import { UrlConstants } from "../../../core/common/url.constants";
 @Component({
   selector: 'side-drawer-page',
   templateUrl: 'modules/shared/side-drawer-page/side-drawer-page.component.html',
   styleUrls: ['modules/shared/side-drawer-page/side-drawer-page.component.css']
 })
-export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
+export class SideDrawerPageComponent  implements AfterViewInit, OnDestroy  {
   @ViewChild(RadSideDrawerComponent) drawerComponent: RadSideDrawerComponent;
 
   /**
@@ -36,9 +40,8 @@ export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
    * Navigation Menu Items
    */
   navMenu: any[] = [
-    { name: 'Home', commands: ['/'] },
-    { name: 'About', commands: ['/about'] },
-    { name: 'Contact', commands: ['/contact'] }
+    { name: 'Home', commands: ['/home'] },
+    { name: 'Người dùng', commands: ['/user'] }
   ];
 
   private drawer: SideDrawerType;
@@ -47,10 +50,17 @@ export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
     private routerExtensions: RouterExtensions,
     private activatedRoute: ActivatedRoute,
     private page: Page,
-    private ngZone: NgZone
+    private ngZone: NgZone,
+    private _utilityService : UtilityService
   ) {
     this.setActionBarIcon(this.page);
     this.setDrawerTransition();
+  }
+
+  Logout() {
+    ApplicationSettings.remove(SystemConstants.CURRENT_USER);
+    //this._utilityService.navigate(UrlConstants.LOGIN);
+    this._utilityService.navigate('/');
   }
 
   ngAfterViewInit() {
